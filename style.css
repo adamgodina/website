@@ -1,117 +1,41 @@
-/* Header & Navbar */
-.header {
-  padding: 15px;
-  text-align: center;
-  background: #258bdf;
-  position: relative;
-}
-h1 {
-  color: #ffffff;
-  font-family: futura;
-  text-align: center;
-  font-size: 66px;
-  line-height: 30px;
-}
-ul {
-  list-style-type: none;
-  width: 100%;
+*{
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  background-color: #3b3939;
-  display: flex;
-  justify-content: space-around;
-}
-li {
-  flex-grow: 1;
-}
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 15px 15px;
-  text-decoration: none;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 20px;
-}
-li a:hover {
-  background-color: #111;
-}
-.author {
-  position: absolute;
-  bottom: 0px;
-  right: 20px;
-  color: white;
-  font-size: 14px;
-  font-family: futura;
 }
 
-/* Paragraph Styles */
-.paragraph {
-  margin: 20px 10px;
-  padding: 15px;
-  background-color: #f9f9f9;
-  border: 1px solid #dddddd; 
-  border-radius: 10px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 20px;
-  line-height: 1.5;
-}
-.paragraph h2{
-  color: black;
-  font-weight: bold;
-  font-family: futura;
-  font-size: 35px;
-  text-align: center;
-  margin: 0px;
-  padding: 4px;
-}
-.paragraph h3{
-  color: rgb(100, 100, 100);
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  font-size: 14px;
-  margin-top: 0px;
-  margin-bottom: 5px;
-  padding: 1px;
-}
-.visual {
-  top: 0;
-  overflow:hidden;
-  border: none;
-}
-.citation {
-  margin: 20px 10px;
-  padding: 15px;
-  background-color: #f9f9f9;
-  border: 1px solid #dddddd; 
-  border-radius: 10px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  margin-bottom: 10px;
-  padding-left: 20px;
-  border-left: 2px solid #ccc;
-  color: #666;
-}
-.citation h2{
-  color: black;
-  font-weight: bold;
-  font-family: futura;
-  font-size: 35px;
-  margin: 0px;
-  padding: 4px;
-}
-
-/* General */
 body {
-  background-color: #325285;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
 }
-.left-align {
-  width: 50%;
-  float: left;
+
+h1 {
+  margin: 75px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 8vh;
 }
-.right-align {
-  width: 50%;
-  float: right;
+
+h2 {
+  flex: 1;
+  margin: 75px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 2vh;
+}
+
+.portrait {
+  width: auto;
+  height: 60vh;
+}
+
+.tiltcard {
+  width: auto;
+  height: auto;
+  background: rgba(255, 255, 255, 0.25);
+  margin: 0 20px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
